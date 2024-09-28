@@ -27,6 +27,7 @@ export function UserContextProvider({ children }) {
 
   return (
     <UserContext.Provider value={{ user, setUser, ready, setReady ,maintenanceCalories,setMaintenanceCalories,protein,setProtein, fats,setFats,carbs,setCarbs}}>
+
       {children}
     </UserContext.Provider>
   );
